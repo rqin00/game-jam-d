@@ -1,22 +1,15 @@
 /// @description Player movement control
 
 // Player direction
-var x_dir = 0;
-var y_dir = 0;
+key_left = keyboard_check(vk_left);
+key_right = keyboard_check(vk_right);
+key_space = keyboard_check_pressed(vk_space);
 
-// Move left
-if (keyboard_check(vk_left)) {
-	x_dir -= 1;
-	
-}
+var move = key_right - key_left;
 
-// Move right
-if (keyboard_check(vk_right)) {
-	x_dir += 1;
-}
+x_speed = move * walk_speed;
+x += x_speed;
 
-// Move player
-x += x_dir * x_speed; 
 
 // If the player is outside of the screen, move them to the edge
 if (bbox_left < 0) {
@@ -26,6 +19,6 @@ if (bbox_left < 0) {
 }
 
 // Player jump
-// if (keyboard_check(vk_up)) {
+// if (keyboard_check_pressed(vk_up)) {
 //	y = 
 // }
