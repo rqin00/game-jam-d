@@ -1,4 +1,4 @@
-// Initializing player speed
+/// @description Initializing variables
 x_speed = 5;
 
 // Initializing gravity
