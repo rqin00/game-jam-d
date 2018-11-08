@@ -6,3 +6,5 @@ y_gravity = 0.3;
 
 start_game = false;
 alarm[0] = 120;
+
+life = 1;

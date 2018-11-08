@@ -48,4 +48,12 @@ if (start_game == true) {
 	else if (bbox_right > room_width) {
 		x += room_width - bbox_right;
 	}
+	
+	if (bbox_bottom < obj_camera_follow.y - 384) { 
+		life = 0;
+	}
+	
+	if (life == 0) {
+		game_restart();
+	}
 }
