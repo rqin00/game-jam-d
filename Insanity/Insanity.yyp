@@ -215,11 +215,27 @@
             }
         },
         {
+            "Key": "b03a4110-5a8d-4592-b5dc-3d2fe6a5692d",
+            "Value": {
+                "id": "b96e7f73-1b03-4be3-9b99-02cfe1ec4989",
+                "resourcePath": "objects\\obj_floor2\\obj_floor2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bbbe85c7-bff5-41be-8381-1d8680e7f451",
             "Value": {
                 "id": "2583a5ce-fd09-45df-8910-be97ed53f89f",
                 "resourcePath": "views\/bbbe85c7-bff5-41be-8381-1d8680e7f451.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bc6729da-9a3e-45ac-9151-96b1f0347630",
+            "Value": {
+                "id": "f53ca7a0-0ed3-426c-97cf-fcc9f787bd90",
+                "resourcePath": "scripts\\scr_textbox\\scr_textbox.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -247,6 +263,22 @@
             }
         },
         {
+            "Key": "df6c8e46-4808-4698-a57d-1f1c157a6903",
+            "Value": {
+                "id": "dc842733-8cb7-47a6-b665-7dda37b51067",
+                "resourcePath": "objects\\obj_textbox\\obj_textbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e6e9b4e3-f93a-4c91-9ef0-5792984e6158",
+            "Value": {
+                "id": "70f74b97-24d9-4126-83e0-a3371a8a1570",
+                "resourcePath": "tilesets\\tiles_1\\tiles_1.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "e8dffd3d-c7d8-41e1-8ae6-5fd0cccff56e",
             "Value": {
                 "id": "935610f2-c41b-4bd5-9be9-a0c9d85b7eae",
@@ -260,6 +292,14 @@
                 "id": "9d9d97b1-495f-4343-b644-8bde1781fc07",
                 "resourcePath": "views\/eb53e2ff-b18f-4126-9a5a-250f9dca78d6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f26894be-f208-497f-9ae3-035b561b467b",
+            "Value": {
+                "id": "9f21caf8-a63a-4b1d-8b1a-b709a53287d7",
+                "resourcePath": "fonts\\fnt_1\\fnt_1.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -296,7 +336,7 @@
         }
     ],
     "script_order": [
-        
+        "bc6729da-9a3e-45ac-9151-96b1f0347630"
     ],
     "tutorial": ""
 }
