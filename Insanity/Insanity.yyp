@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "15b5408f-5b05-45c1-83e2-4771305574be",
+            "Value": {
+                "id": "05709006-7335-4a6d-95e4-1e7c2e293510",
+                "resourcePath": "objects\\obj_spike\\obj_spike.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "16503bd6-86cf-468b-a2fa-537b51db2bb5",
             "Value": {
                 "id": "e8ef7f46-302d-4c45-ac3a-015fb546ff06",

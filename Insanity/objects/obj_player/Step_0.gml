@@ -31,6 +31,13 @@ if (start_game == true) {
 	x += x_speed;
 
 	// Vertical collision
+	/* if (place_meeting(x, y - y_speed, obj_floor)) {
+		while (!place_meeting(x, y - sign(y_speed), obj_floor)) {
+			y -= sign(y_speed);
+		}
+		y_speed = 0;
+	} */
+	
 	if (place_meeting(x, y + y_speed, obj_floor)) {
 		while (!place_meeting(x, y + sign(y_speed), obj_floor)) {
 			y += sign(y_speed);
