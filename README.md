@@ -5,6 +5,6 @@ One week game jam with the theme being Delve.
 
 **Ryan Qin** - Programmer
 
-**Tanner Chiamsepresert** - Sprite Designer
+**Tanner Chiampresert** - Sprite Designer
 
 **Paul Mattaway** - Music
