@@ -16,13 +16,13 @@ if (start_game == true) {
 	y_speed += y_gravity;
 
 	// Jump 
-	if (place_meeting(x, y + 1, obj_floor)) && (key_space) {
+	if (place_meeting(x, y + 1, obj_floor) || (place_meeting(x, y + 1, obj_trapdoor))) && (key_space) {
 		y_speed = -7;
 	}
 
 	// Horizontal collision 
-	if (place_meeting(x + x_speed, y - 1, obj_floor)) {
-		while (!place_meeting(x + sign(x_speed), y, obj_floor)) { // Sign gives +-1 based on sign of variable E.x. sign(5) = 1
+	if (place_meeting(x + x_speed, y - 1, obj_floor) || place_meeting(x + x_speed, y - 1, obj_trapdoor)) {
+		while (!place_meeting(x + sign(x_speed), y, obj_floor) && !place_meeting(x + sign(x_speed), y, obj_trapdoor)) { // Sign gives +-1 based on sign of variable E.x. sign(5) = 1
 			x += sign(x_speed);
 		}
 		x_speed = 0;
@@ -31,8 +31,8 @@ if (start_game == true) {
 	x += x_speed;
 
 	// Vertical collision
-	if (place_meeting(x, y + y_speed, obj_floor)) {
-		while (!place_meeting(x, y + sign(y_speed), obj_floor)) {
+	if (place_meeting(x, y + y_speed, obj_floor) || place_meeting(x, y + y_speed, obj_trapdoor)) {
+		while (!place_meeting(x, y + sign(y_speed), obj_floor) && !place_meeting(x, y + sign(y_speed), obj_trapdoor)) {
 			y += sign(y_speed);
 		}
 		y_speed = 0;
