@@ -1,0 +1,1 @@
+//scr_textbox("Welcome  to  Insanity.  Don't  fall  behind.  Keep  delving  further.", 1, (room_width / 2) - 512, 300)
