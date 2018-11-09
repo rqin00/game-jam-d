@@ -704,6 +704,13 @@
             }
         },
         {
+<<<<<<< HEAD
+            "Key": "df33bdc7-da0f-44ea-b480-a962b8bd8339",
+            "Value": {
+                "id": "c6485c70-20a9-4fe3-bb02-58a660238c08",
+                "resourcePath": "fonts\\font0\\font0.yy",
+                "resourceType": "GMFont"
+=======
             "Key": "df6c8e46-4808-4698-a57d-1f1c157a6903",
             "Value": {
                 "id": "dc842733-8cb7-47a6-b665-7dda37b51067",
@@ -758,6 +765,7 @@
                 ],
                 "resourcePath": "sprites\/spr_Background\/spr_Background.yy",
                 "resourceType": "GMSprite"
+>>>>>>> 3da3c09c87feaa8df4b35b6bf862de15b0b7789a
             }
         },
         {
